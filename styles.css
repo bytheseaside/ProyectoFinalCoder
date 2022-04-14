@@ -92,8 +92,10 @@ header nav ul li{
 }
 header nav ul li:hover{
     font-weight:bold;
-    /* offset-x | offset-y | blur-radius | color */
     text-shadow: 1px 1px 5px black;
+    transform: scale(1.1);
+    transition: transform 0.3seg ease-in-out;
+
 }
 .header__nav__link{
     color:white;
@@ -388,7 +390,6 @@ main .index__page{
 
 .makeup_section section img:hover {
     transform:scale(1.1);
-    padding:0;
     box-shadow:5px 5px 15px rgba(92, 91, 91, 0.5);
     transition:box-shadow transform 0.1s ease-in;
 
