@@ -207,14 +207,14 @@ main .index__page{
 /* MAIN: About me */
 .main__about__me{
     display:grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "heading img"
     "text img";
     align-items: center;
     grid-area:about; /* es item de otro grid area, pero a su vez tiene su grid area interna */
-    height: 80vh; 
+    height: 110vh; 
 }
 
 .main__about__me p{
@@ -224,7 +224,7 @@ main .index__page{
     margin-left: 5rem;
     margin-bottom: 3rem;
     justify-self: center;
-    align-self: end;
+    align-self: start;
 }
 
 .main__about__me h1{
@@ -384,6 +384,14 @@ main .index__page{
     height: 40vh;
     width: auto;
     padding: 2px;
+}
+
+.makeup_section section img:hover {
+    transform:scale(1.1);
+    padding:0;
+    box-shadow:5px 5px 15px rgba(92, 91, 91, 0.5);
+    transition:box-shadow transform 0.1s ease-in;
+
 }
 
 @media screen and (max-width:860px){
