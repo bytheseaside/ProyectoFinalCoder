@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto - JANE DOE </title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="imagenes/icons/favicon.ico" type="image/x-icon">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- FONTS USED-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,300;0,600;1,100&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/118cb351c1.js" crossorigin="anonymous"></script>
+</head>
+<body><!-- menu + "header" para version mobile -->
+    <img src="imagenes/drip.png" alt="drip_img" class="mobile" id="drip">
+    <input type="checkbox" class="mobile_checkbox" id="menu">
+    
+    <div class="menu__mobile">
+        <label for="menu" class="mobile" id="back__menu">
+            <div>
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </label>
+        <ul>
+            <li> <a href="index.html" class="header__nav__link">HOME</a></li>
+            <li> <a href="portfolio.html" class="header__nav__link">PORTFOLIO</a> </li>
+            <li> <a href="servicios.html" class="header__nav__link">SERVICIOS</a></li>
+            <li> <a href="cursos.html" class="header__nav__link">CURSOS</a> </li>
+            <li><a href="contacto.html"class="header__nav__link">CONTACTO</a></li>
+        </ul>
+    </div>
+    <!-- cierre version mobile --> 
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="header__logo"><img src="imagenes/logo peq header.png" alt=""></a>      
+        <!-- MENÚ NAV. DEL HEADER -->
+        <nav>
+            <ul>
+                <li> <a href="index.html" class="header__nav__link">HOME</a></li>
+                <li> <a href="portfolio.html" class="header__nav__link">PORTFOLIO</a> </li>
+                <li> <a href="servicios.html" class="header__nav__link">SERVICIOS</a></li>
+                <li> <a href="cursos.html" class="header__nav__link">CURSOS</a> </li>
+                <li><a href="contacto.html"class="header__nav__link">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="contact__page">
+        <h1>¡Contáctame!</h1>
+        <form action="/destino" method="get" enctype="">
+            <div>
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Mensaje"></textarea> 
+                <button type="submit">ENVIAR</button>
+                <!--Cuando clickeo enviar aparece la pequeña vista en overlay que dice "mensaje recibido, recibira rta en X horas"-->
+            </div>
+        </form>
+
+        <img src="imagenes/brush purple.png" alt="Pincel con sombre violeta" class="brush__img">
+    </main>
+
+    <!-- FOOTER -->
+    <footer> 
+        <section class="footer__text">
+           <p> Jane Doe - Make Up Artist 2022 ®</p>
+        </section>
+        <!-- para version mobile -->
+        <section class="mobile" id="footer__text">
+            <p> Jane Doe - 2022 ®</p>
+        </section>
+        <label for="menu" class="mobile" id="menu__button">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </label>
+        
+        <!--Links a redes sociales-->
+        <!-- Como es una MUA inventada, voy a hacer que lleven a la home de las redes sociales, ya que no tiene propias. En un futuro, puedo crearle páginas y linkearlas cambiando el URL-->
+        <section class="footer__media">
+            <a href="https:/facebook.com" target="blank"> <img src="imagenes/icons/Facebook.png" alt="Icon de Facebook"> </a>
+            <a href="https:/instagram.com" target="blank"> <img src="imagenes/icons/Instagram.png" alt="Icon de Instagram"> </a>
+            <a href="https:/linkedin.com" target="blank"> <img src="imagenes/icons/LinkedIn.png" alt="Icon de LinkedIn"> </a>
+        </section>
+    </footer>
+
+
+</body>
+</html>

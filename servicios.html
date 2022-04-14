@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Servicios - JANE DOE </title>
+     <!-- FAVICON -->
+     <link rel="shortcut icon" href="imagenes/icons/favicon.ico" type="image/x-icon">
+     <!-- STYLESHEET -->
+     <link rel="stylesheet" href="./styles.css">
+     <!-- FONTS USED-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,300;0,600;1,100&display=swap" rel="stylesheet">
+     <!-- FONT AWESOME -->
+     <script src="https://kit.fontawesome.com/118cb351c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- menu + "header" para version mobile -->
+    <img src="imagenes/drip.png" alt="drip_img" class="mobile" id="drip">
+    <input type="checkbox" class="mobile_checkbox" id="menu">
+    
+    <div class="menu__mobile">
+        <label for="menu" class="mobile" id="back__menu">
+            <div>
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </label>
+        <ul>
+            <li> <a href="index.html" class="header__nav__link">HOME</a></li>
+            <li> <a href="portfolio.html" class="header__nav__link">PORTFOLIO</a> </li>
+            <li> <a href="servicios.html" class="header__nav__link">SERVICIOS</a></li>
+            <li> <a href="cursos.html" class="header__nav__link">CURSOS</a> </li>
+            <li><a href="contacto.html"class="header__nav__link">CONTACTO</a></li>
+        </ul>
+    </div>
+    <!-- cierre version mobile --> 
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="header__logo"><img src="imagenes/logo peq header.png" alt=""></a>      
+        <!-- MENÚ NAV. DEL HEADER -->
+        <nav>
+            <ul>
+                <li> <a href="index.html" class="header__nav__link">HOME</a></li>
+                <li> <a href="portfolio.html" class="header__nav__link">PORTFOLIO</a> </li>
+                <li> <a href="servicios.html" class="header__nav__link">SERVICIOS</a></li>
+                <li> <a href="cursos.html" class="header__nav__link">CURSOS</a> </li>
+                <li><a href="contacto.html"class="header__nav__link">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="services__page">
+        <section class="services_explanation">
+            <h1>
+                Servicios
+            </h1>
+
+            <!--La idea de los siguientes parrafos sería explicar que hace, con cuanto reserva de anticipacion, y por ultimo 2 presupuestos de 2 servicios de maquillaje distuntos-->
+            <div class="serv__text">
+                <p>
+                    Aliquam et justo ut urna porta viverra id vitae est. Suspendisse potenti. In pretium massa massa, et vulputate mi ullamcorper at. Nunc a orci volutpat, feugiat magna eu, congue nunc. 
+                </p>
+                <p>
+                    Ut fermentum bibendum pharetra. Pellentesque tempor augue tortor, eu sollicitudin magna faucibus eu. Integer luctus eros eu velit mattis dignissim. Proin faucibus ultrices augue, nec pharetra felis elementum ut. Maecenas odio mauris, fermentum in erat in.  
+                </p>
+            </div>
+            
+            <img src="imagenes/purple eye shadow.png" alt=""> <!--Foto de relleno-->
+        </section>
+
+        <section class="viaticos">
+            <h1>VIÁTICOS</h1>
+            <!--Oración explicando como se maneja con los viáticos si es a domicilio-->
+            <div class="text">
+                <p>
+                    Donec molestie leo vitae tempor tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla placerat nunc quis mollis.
+                </p>
+            </div>
+            <div class="table">
+                <div class="headers">
+                    <p>ZONA</p>
+                    <p>RADIO</p>
+                    <p>COSTO</p>
+                </div>
+                <div class="zona">
+                    <p>Zona1</p>
+                    <p>x km</p>
+                    <p>$ aaa</p>
+                </div>
+                <div class="zona">
+                    <p>Zona2</p>
+                    <p>x km</p>
+                    <p>$ aaa</p>
+                </div>
+                <div class="zona">
+                    <p>Zona3</p>
+                    <p>x km</p>
+                    <p>$ aaa</p>
+                </div>
+                <div class="zona">
+                    <p>Zona4</p>
+                    <p>x km</p>
+                    <p>$ aaa</p>
+                </div>
+                <div class="zona">
+                    <p>Zona5</p>
+                    <p>x km</p>
+                    <p>$ aaa</p>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- FOOTER -->
+    <footer> 
+        <section class="footer__text">
+           <p> Jane Doe - Make Up Artist 2022 ®</p>
+        </section>
+        <!-- para version mobile -->
+        <section class="mobile" id="footer__text">
+            <p> Jane Doe - 2022 ®</p>
+        </section>
+        <label for="menu" class="mobile" id="menu__button">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </label>
+        
+        <!--Links a redes sociales-->
+        <!-- Como es una MUA inventada, voy a hacer que lleven a la home de las redes sociales, ya que no tiene propias. En un futuro, puedo crearle páginas y linkearlas cambiando el URL-->
+        <section class="footer__media">
+            <a href="https:/facebook.com" target="blank"> <img src="imagenes/icons/Facebook.png" alt="Icon de Facebook"> </a>
+            <a href="https:/instagram.com" target="blank"> <img src="imagenes/icons/Instagram.png" alt="Icon de Instagram"> </a>
+            <a href="https:/linkedin.com" target="blank"> <img src="imagenes/icons/LinkedIn.png" alt="Icon de LinkedIn"> </a>
+        </section>
+    </footer>
+
+</body>
+</html>
